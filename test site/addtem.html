@@ -19,14 +19,33 @@
 	<body>
 	<!--Page content lives here. -->
 	<h1>Lets get started</h1>
-	<p>to get started please enter your zip code to see if we service your area. <br> If you need to cancel your appt call XXX-XXX-XXXX. </p>
+	<p>To get started please enter your zip code to see if we service your area. <br> If you need to cancel your appt call XXX-XXX-XXXX. </p>
 	
-	<form action="">
-	First name: <input type="text" name="firstname" /><br />
-	Last name: <input type="text" name="lastname" />
+	<form action="#">
+		 Name: <input type="text" name="firstname" /><br />
+		Car model: <input type="text" name="lastname" /><br />
+	 Service Date: <input type="date" name="user_date" />
 	</form>
+	
+	<input type="checkbox" name="vehicle" value="yes/no" /> This is my first service call<br />
+	<h2>Select which package you want</h2>
+	
+	<input type="radio" name="service" value="basic" /> Standard wash & dry<br />
+	<input type="radio" name="service" value="superemeclean" />Supreme Clean service<br />
+	
+	
+		<fieldset>
+			<legend>Contact information</legend>
+			Name: <input type="text" size="30" /><br />
+			Email: <input type="text" size="30" /><br />
+			Zip Code: <input type="text" size="6" />
+		</fieldset>
+	</form>
+		
+	<textarea rows="4" cols="20">
+	Any additional detail we should know... 
+	</textarea>
 	<a href="#" >Clear stored data!</a>
 	</body>
 </html>
 
-08598103
