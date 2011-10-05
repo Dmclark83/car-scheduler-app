@@ -1,0 +1,29 @@
+h1 {
+	margin: 20px ;
+	border: 2px solid black;
+	background: red;
+	
+	
+	padding:10px;
+	outline: ;
+	width:217px ;
+	height: ;
+	display: ;
+	overflow: ;
+	visibility: ;
+	word-wrap: ;
+	
+}
+
+p {
+ color: blue ;
+ font-style:italic ;
+ font-family:serif ;
+ font: ;/* this combines the font-weight with the two above*/
+ line-height: ;
+ text-align: ;
+ text-indent: ;
+ text-transform: ;
+ text-decoration: ;
+ 
+}
