@@ -1,4 +1,4 @@
-h1 {
+h1{
 	margin: 20px ;
 	border: 2px solid black;
 	background: red;
@@ -15,15 +15,29 @@ h1 {
 	
 }
 
-p {
- color: blue ;
- font-style:italic ;
- font-family:serif ;
- font: ;/* this combines the font-weight with the two above*/
- line-height: ;
- text-align: ;
- text-indent: ;
- text-transform: ;
- text-decoration: ;
+p{
+	padding:8px;
+	border: 2px solid black;
+	background: #fb547b;
+	color: black ;
+	font-style:italic ;
+	font-family:serif ;
+	font: ;/* this combines the font-weight with the two above*/
+	line-height: ;
+	text-align: ;
+	text-indent:;
+	text-transform: ;
+	text-decoration: ;
  
+}
+
+body{
+	background-color:#a2c1f9;
+	background-repeat:no-repeat;
+
+}
+
+fieldset{
+	background-color:#fb547b;
+ 	border: 2px solid black;
 }
